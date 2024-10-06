@@ -28,6 +28,7 @@ begin
     sign := -sign;
   end;
   
+  assert(abs(sum - sin(x)) < eps);
   print(sum, sin(x));
 end.
 
